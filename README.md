@@ -7,11 +7,7 @@
 
 ---
 
-## 👨‍💻 The "Human" Update
-
-Alright, let's cut the corporate jargon. 
-
-I built **Breakr Stock Intelligence** because I was tired of retail traders flying blind. We needed something that felt like a **weapon**, not just another watchlist. This isn't just a dashboard; it's a **War Room**.
+I built **Breakr Stock Intelligence** because I was tired of retail traders flying blind. We needed something that felt like a **weapon**, not just another watchlist. This isn't just a dashboard; it's a War Room.
 
 I've wired up a simulated "Price Authority" feed that checks for data integrity every millisecond. If the price drifts too far from the source, it locks down. No bad data. No noise.
 
@@ -21,18 +17,16 @@ This is **v0.5.0**. It's raw, it's powerful, and it's built to give you an edge.
 
 ---
 
-## ⚡ What's Under the Hood?
+# What's Under the Hood?
 
 - **The "Authority" Engine**: A custom-built validation layer that simulates high-frequency institutional feeds. It validates LTP (Last Traded Price) against an internal authority to ensure you're seeing the *real* picture.
 - **AI Sentinel (Gemini-Powered)**: I'm using `gemini-3-flash` to analyze market structure in real-time. It sees the patterns you might miss.
-- **War Room Mode (05:00 - 09:30 AM)**: Before the market opens, the system scours the web for global cues and GIFT Nifty trends to give you a "Battle Bias".
-- **Visual Alpha**: 
-  - **Conviction Radar**: A hex-grid visualization of buy/sell Signal Strength.
+- **War Room Mode: Before the market opens, the system scours the web for global cues and GIFT Nifty trends to give you a "Battle Bias".
+- Visual Alpha: 
+  - Conviction Radar: A hex-grid visualization of buy/sell Signal Strength.
   - **Institutional Flow**: Tracking simulated FII/DII money movement.
 
----
-
-## 🛠️ The Tech Stack (My Rig)
+##  The Tech Stack 
 
 Built this using the cleanest, fastest stack I know:
 - **React 18 + TypeScript** (because type safety validates my sanity)
@@ -42,11 +36,11 @@ Built this using the cleanest, fastest stack I know:
 
 ---
 
-## 🚀 How to Run this Beast
+##  How to Run this Beast
 
 You want to run this locally? Easy.
 
-1.  **Clone it:**
+1.  Clone it:
     ```bash
     git clone https://github.com/093rjain-ro/breakr-os.git
     cd breakr-os
